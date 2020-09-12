@@ -3,16 +3,16 @@
     <md-card>
       <md-card-content>
         <p>
-          <label>Question</label>
+          <label>Soru</label>
           <input v-model="value.question" />
         </p>
         <p>
-          <label>Answer</label>
+          <label>Cevap</label>
           <quill-editor :options="editorOptions" v-model="value.answer" />
         </p>
       </md-card-content>
       <md-card-actions>
-        <md-button @click="$emit('remove')">Remove</md-button>
+        <md-button @click="$emit('remove')">Kaldır</md-button>
       </md-card-actions>
     </md-card>
   </div>
@@ -32,7 +32,7 @@ export default {
   data() {
     return {
       editorOptions: {
-        placeholder: 'Answer goes here...',
+        placeholder: 'Cevabınızı buraya yazın...',
       },
     };
   },

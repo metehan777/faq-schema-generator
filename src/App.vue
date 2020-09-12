@@ -2,7 +2,7 @@
   <div id="app">
     <md-app>
       <md-app-toolbar class="md-primary">
-        <span class="md-title">FAQ Schema Generator</span>
+        <span class="md-title">SEO FAQ Schema Oluşturucu - Dijihack</span>
       </md-app-toolbar>
       <md-app-content>
         <Repeater

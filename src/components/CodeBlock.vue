@@ -1,6 +1,6 @@
 <template>
   <div class="json-block">
-    <button @click="copyCode">Copy to Clipboard</button>
+    <button @click="copyCode">Kopyala!</button>
     <pre ref="copyMe">
 &lt;script type="application/ld+json"&gt;{{ code }}&lt;/script&gt;</pre
     >
